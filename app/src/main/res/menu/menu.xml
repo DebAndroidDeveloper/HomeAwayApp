@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.EventDetailsActivity">
+
+    <item
+        android:id="@+id/favorite_event"
+        android:orderInCategory="1"
+        android:icon="@drawable/selector_favorite_icon"
+        android:title="Favorite"
+        app:showAsAction="ifRoom" />
+
+</menu>
